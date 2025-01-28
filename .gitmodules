@@ -1,0 +1,3 @@
+[submodule "gif-lzw"]
+	path = gif-lzw
+	url = https://github.com/DavidLokison/godot-gif-lzw
