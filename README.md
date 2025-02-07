@@ -5,7 +5,7 @@ GDScript wrapper for loading GIF files from a `PackedByteArray` buffer and trans
 All Godot GIF Parser libraries I have come across work on files on the hard drive. My goal was to make a parser that also works with streamlined file buffers directly read from an online source.
 
 ## Installation and Usage
-Add this repository as a submodule via `git submodule add http://DavidLokison/godot-gif-parser gif-parser`. Make sure to `git submodule update --init --recursive` afterwards.
+Add this repository as a submodule to your `addons` folder via `git submodule add https://github.com/DavidLokison/godot-gif-parser addons/gif-parser`. Make sure to `git submodule update --init --recursive` afterwards.
 
 Then, load and instanciate the script and call the `read(data: PackedByteArray) -> AnimatedTexture` method and pass it the loaded file or data stream content.
 
